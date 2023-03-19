@@ -1,0 +1,15 @@
+package fundamentos;
+
+public class ConversorTemperatura {
+	public static void main(String[] args) {
+		final double ajuste = 32.0;
+		final double fator = 5.0 / 9.0;
+		
+		
+		double temperaturaFirenheight = 50;
+		double temperaturaCelsius = (temperaturaFirenheight - ajuste) * fator;
+		
+		System.out.println(temperaturaCelsius);
+		
+	}
+}
