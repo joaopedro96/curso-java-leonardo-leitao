@@ -1,0 +1,13 @@
+package controle;
+
+public class IfDesafio {
+	
+	public static void main(String[] args) {
+		double nota = 10;
+		
+		if (nota >= 9.0) {
+			System.out.print("ok");
+		}
+	}
+	
+}
