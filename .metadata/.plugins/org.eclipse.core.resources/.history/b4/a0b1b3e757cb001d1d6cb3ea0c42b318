@@ -19,4 +19,11 @@ public class Compra {
 		}
 		return valorTotal;
 	}
+	
+//	public String toString() {
+//		
+//		for(Item item: itens) {
+//			return item.nome;
+//		}
+//	}
 }
