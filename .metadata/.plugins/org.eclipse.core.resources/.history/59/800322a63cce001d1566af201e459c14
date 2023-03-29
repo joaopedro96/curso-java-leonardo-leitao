@@ -1,0 +1,22 @@
+package lambda.desafio;
+
+import java.util.function.Function;
+
+import oo.desafio.Produto;
+
+public class Desafio {
+	
+	public static void main(String[] args) {
+		
+		Produto p1 = new Produto("iPad", 3235.9, 0.13);
+		
+		
+		
+		Function<Produto, Double> precoFinal = produto -> produto.getPrice() * produto.getDiscount(); 
+		
+		System.out.printf("Valor total: %.2f", precoFinal.apply(p1));
+
+		
+	}
+	
+}

@@ -1,0 +1,14 @@
+package lambda.desafio;
+
+import java.util.function.Function;
+
+import oo.desafio.Produto;
+
+public class Desafio {
+
+	
+	Produto p1 = new Produto("iPad", 3235.9, 0.13);
+	
+	Function<Double, Double> precoFinal = (produto, desconto) -> produto * desconto; 
+	
+}
