@@ -32,12 +32,4 @@ public class Produto {
 	public double getDiscount() {
 		return desconto;
 	}
-	
-	public boolean getFreeShipping() {
-		return freteGratis;
-	}
-	
-	public String getName() {
-		return nome;
-	}
 }

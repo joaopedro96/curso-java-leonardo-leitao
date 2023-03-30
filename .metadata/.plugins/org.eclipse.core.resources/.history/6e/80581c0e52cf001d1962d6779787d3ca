@@ -36,8 +36,4 @@ public class Produto {
 	public boolean getFreeShipping() {
 		return freteGratis;
 	}
-	
-	public String getName() {
-		return nome;
-	}
 }

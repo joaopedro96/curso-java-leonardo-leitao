@@ -5,4 +5,7 @@
     <fullyQualifiedTypeName name="java.util.function.UnaryOperator"/>
     <fullyQualifiedTypeName name="java.util.Formatter"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="utilitarios.RevertString"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
 </qualifiedTypeNameHistroy>
