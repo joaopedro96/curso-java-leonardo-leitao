@@ -22,5 +22,4 @@ public class Campo {
 	boolean adicionarVizinho(Campo vizinho) {
 		return true;
 	}
-	
 }
